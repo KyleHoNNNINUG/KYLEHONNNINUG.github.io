@@ -3376,7 +3376,7 @@ input[type="button"].btn-block {
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
   .nav-tabs .nav-item {
-    margin-bottom: -1px; }
+    margin-bottom: -10px; }
   .nav-tabs .nav-link {
     border: 1px solid transparent;
     border-top-left-radius: 0.25rem;
@@ -8787,7 +8787,7 @@ h1, h2, h3, h4, h5,
   font-size: 20px; }
   .ftco-about .counter-wrap .text p span {
     font-weight: 400;
-    color: #fff; }
+    color: #b873f0; }
   .ftco-about .counter-wrap .text p span.number {
     font-weight: 600;
     color: #640dd6; }
@@ -8951,7 +8951,7 @@ h1, h2, h3, h4, h5,
         .project.img-2 .text h3 a {
           color: #fff; }
       .project.img-2 .text span {
-        color: rgba(255, 255, 255, 0.8);
+        color: #b873f0;
         text-transform: uppercase;
         letter-spacing: 2px; }
       @media (max-width: 767.98px) {
@@ -8959,7 +8959,7 @@ h1, h2, h3, h4, h5,
           max-width: 100%;
           opacity: 1; }
           .project.img-2 .text span {
-            color: rgba(255, 255, 255, 0.8); } }
+            color: #b873f0; } }
   .project .overlay {
     position: absolute;
     top: 0;
@@ -8992,7 +8992,7 @@ h1, h2, h3, h4, h5,
       .project .text h3 a {
         color: #fff; }
     .project .text span {
-      color: rgba(255, 255, 255, 0.8);
+      color: #b873f0;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 12px;
@@ -9001,7 +9001,7 @@ h1, h2, h3, h4, h5,
       .project .text {
         opacity: 1; }
         .project .text span {
-          color: rgba(255, 255, 255, 0.8); } }
+          color: #b873f0; } }
   .project:hover .overlay, .project:focus .overlay {
     opacity: .9; }
   .project:hover .text, .project:focus .text {
@@ -9271,7 +9271,7 @@ textarea.form-control {
 .ftco-counter .text span {
   display: block;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.8); }
+  color: #b873f0; }
 
 @media (max-width: 767.98px) {
   .ftco-counter .counter-wrap {
