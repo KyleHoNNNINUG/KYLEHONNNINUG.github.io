@@ -11,6 +11,10 @@ body {
   background-color: #f7eaff;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 nav {
   position: fixed;
   margin: 0;
@@ -125,16 +129,25 @@ nav li :hover {
   background-size: 130% auto;
 }
 
-.art-element .preview-panel {
+.art-element .preview-panel, .art-element .preview-panel-titled {
   background-color: #5e00d1;
   width: 100%;
   height: 100%;
   transition: all 0.3s ease-in-out;
   opacity: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
 }
 
 .art-element:hover .preview-panel {
   background-color: #5e00d180;
+  opacity: 1;
+}
+
+.art-element:hover .preview-panel-titled {
+  background-color: #5e00d1bc;
   opacity: 1;
 }
 
@@ -149,6 +162,31 @@ nav li :hover {
   color: #ffffff;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 2.2vw;
+}
+
+.art-element .preview-panel-titled .text-wrapper {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.art-element .preview-panel-titled .text-wrapper h1 {
+  color: #ffffff;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 2.7vw;
+  font-weight: 570;
+  line-height: 3.5vw;
+}
+
+.art-element .preview-panel-titled .text-wrapper p {
+  margin-top: -8%;
+  color: #ffffffd8;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1.8vw;
+  font-weight: 700;
 }
 
 footer {
