@@ -9,6 +9,8 @@ body {
   color: #5e00d1;
   text-align: left;
   background-color: #f7eaff;
+  min-height: 100vh;
+  position: relative;
 }
 
 .nowrap {
@@ -191,8 +193,8 @@ nav li :hover {
 
 footer {
   margin: 0;
-  top: 0;
-  position: relative;
+  bottom: 0;
+  position: absolute;
   height: 5vw;
   width: 100%;
   background-color: #5e00d1;
@@ -202,6 +204,7 @@ footer {
 footer p {
   position: absolute;
   color: #ecceff;
+  margin-top: auto;
   margin: 0;
   margin-left: 1.8vw;
   top: 28%;
