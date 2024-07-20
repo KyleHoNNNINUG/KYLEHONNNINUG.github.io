@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  padding-top: 7vw;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
@@ -12,9 +14,11 @@ body {
 nav {
   position: fixed;
   margin: 0;
-  height: 150px;
+  top: 0;
+  height: 7vw;
   width: 100%;
   background-color: #5e00d1;
+  z-index: 1;
 }
 
 nav img {
@@ -31,7 +35,7 @@ nav ul {
   right: 30px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 2vw;
 }
 
 nav li {
@@ -39,14 +43,124 @@ nav li {
   margin: 15px;
   text-align: center;
   width: 180px;
+  color: #ffffff;
 }
 
 nav li a {
   color: #ecceff;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 nav li :hover {
   color: #ffffff;
-  text-decoration: underline;
+}
+
+.about {
+  margin: 0;
+}
+
+.about h1 {
+  margin: 0;
+  margin-left: 5vw;
+  padding: 0;
+  padding-top: 1vw;
+  font-size: 5vw;
+}
+
+.about h2 {
+  margin: 0;
+  margin-left: 5.8vw;
+  padding-top: 0.1vw;
+  padding-bottom: 0.9vw;
+  font-weight: 500;
+  font-size: 1.8vw;
+}
+
+.art-container {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+}
+
+.art-element {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+}
+
+.w1 {
+  width: 25%;
+  aspect-ratio: 1/1;
+}
+
+.w2 {
+  width: 50%;
+  aspect-ratio: 2/1;
+}
+
+.height-based {
+  background-size: auto 100%;
+}
+
+.width-based {
+  background-size: 100% auto;
+}
+
+.height-based:hover {
+  background-size: auto 130%;
+}
+
+.width-based:hover {
+  background-size: 130% auto;
+}
+
+.art-element .preview-panel {
+  background-color: #5e00d1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.art-element:hover .preview-panel {
+  background-color: #5e00d180;
+  opacity: 1;
+}
+
+.art-element a {
+  text-decoration: none;
+}
+
+.art-element .preview-panel h1 {
+  position: absolute;
+  right: 2vw;
+  bottom: -0.3vw;
+  color: #ffffff;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 2.2vw;
+}
+
+footer {
+  margin: 0;
+  top: 0;
+  position: relative;
+  height: 5vw;
+  width: 100%;
+  background-color: #5e00d1;
+  z-index: 1;
+}
+
+footer p {
+  position: absolute;
+  color: #ecceff;
+  margin: 0;
+  margin-left: 1.8vw;
+  top: 28%;
+  font-size: 1.4vw;
 }
