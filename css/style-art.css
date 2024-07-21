@@ -90,6 +90,7 @@ nav li :hover {
 
 .art-container {
   margin: 0;
+  padding-bottom: 5vw;
   width: 100%;
   text-align: center;
   font-size: 0;
@@ -175,7 +176,7 @@ nav li :hover {
   transform: translate(-50%, -50%);
 }
 
-.art-element .preview-panel-titled .text-wrapper h1 {
+.art-element .preview-panel-titled .text-wrapper h1{
   color: #ffffff;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 2.7vw;
