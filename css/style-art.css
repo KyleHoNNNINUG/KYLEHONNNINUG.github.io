@@ -103,6 +103,28 @@ nav li :hover {
   font-size: 1.8vw;
 }
 
+.about .text-illust-wrapper .text a {
+  text-decoration: none;
+}
+
+.about .text-illust-wrapper .text a:hover {
+  text-decoration: underline;
+}
+
+.about .text-illust-wrapper .text ul {
+  margin: 0;
+}
+
+.about .text-illust-wrapper .text ul p {
+  margin-right: 4vw;
+  margin-left: 2vw;
+  margin-top: -1vw;
+  margin-bottom: 2vw;
+  font-weight: 500;
+  font-size: 1.8vw;
+  line-height: 2vw;
+}
+
 .about .text-illust-wrapper .illust{
   display: inline-block;
   line-height: 0;
