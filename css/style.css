@@ -8766,7 +8766,10 @@ h1, h2, h3, h4, h5,
         width: 130px; }
 
 .ftco-about .counter-wrap .text p {
-  font-size: 20px; }
+  font-size: 20px;
+  display: inline;
+  margin-inline: 0.4vw;
+}
   .ftco-about .counter-wrap .text p span {
     font-weight: 400;
     color: #b873f0; }
