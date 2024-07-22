@@ -80,7 +80,7 @@ nav li :hover {
   padding-right: 2.5%;
   font-size: 0;
   width: 95%;
-  height: calc(100vh - 7vw);
+  height: 40vw;
   background-color: #ffffff;
 }
 
@@ -130,7 +130,7 @@ nav li :hover {
   line-height: 0;
   vertical-align: top;
   width: 40%;
-  height: 40vw;
+  height: 100%;
   margin: 0;
   background-position: center center;
   background-repeat: no-repeat;
